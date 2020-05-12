@@ -1,0 +1,161 @@
+body {
+background-color:#FFE4E1;
+}
+header{
+	background-color:#FAA;
+}
+h1 {
+	background-color:#FAA;
+	text-align:center;
+	font-family: 'Roboto', sans-serif;
+	color:white;
+	line-height:200%;
+	padding:10px;
+	height:90px;
+	margin-bottom:0;
+	width:100%;
+}
+h2 {
+	text-align:center; 
+	background-color:#BEE; 
+	max-width:600px; 
+	margin:10px auto;
+}
+p {
+	text-align:left;
+	font-family: 'Source Code Pro', monospace;
+	font-weight:bold;
+}
+main {
+	max-width:1200px;
+	margin:0 auto;
+}
+footer {
+	color:black;
+	font-size:.7em;
+	margin:0 auto;
+	padding:5px;
+	text-align:center;
+	width:101%;
+}
+nav {
+	width:100%;
+	padding:10px;
+	font-weight:bold;
+	background-color:#DD5F47;
+	float:right;
+	border-bottom:15px solid #FFE4E1;
+}
+nav a {
+	list-style-type: none;
+	float:right;
+}
+nav li {
+	display: inline;
+	margin-right:40px;
+}
+nav ul{
+	list-style:none;
+	margin:0 2px;
+	padding:0;
+	display:flex;
+	float:right;
+}
+nav a {
+	text-decoration: none;
+	padding right: 10px;
+}
+nav a:link {
+	color:black;
+}
+nav a:visited {
+	color:purple;
+}
+nav a:hover {
+	color:white;
+}
+nav a:active {
+	color:blue;
+}
+.gallery .preview{
+    width:100%
+    height:auto;
+}
+.gallery .gallery-thumbnails img {
+    width:100px;
+    height:75px;
+    margin: 3px 10px 10px 0;
+}
+.gallery .gallery-thumbnails img:hover {
+    opacity: .8;
+    cursor: pointer;
+}
+.gallery .preview img#preview {
+    padding: 1px;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto !important;
+    display: block !important;
+}
+.me {
+	margin:0 auto;
+	border:1em solid #ffffff;
+	display:block;
+}
+.logo {
+	margin:0 auto;
+	display:block;
+}
+.box {
+	text-align:center;
+	background-color:#BEE; 
+	max-width:700px;  
+	margin:10px auto; 
+	border:5px dotted red;
+}
+.box2 {
+	text-align:center;
+	background-color:#BEE; 
+	max-width:500px; 
+	margin:10px auto; 
+	border:5px dotted red;
+	float:left;
+}
+.box3 {
+	text-align:center;
+	background-color:#BEE; 
+	max-width:500px; 
+	margin:10px auto; 
+	border:5px dotted red;
+	float:right;
+}
+.bunbun {
+	float:right;
+	border: 5px solid blue;
+}
+.bug {
+	float:left;
+	border: 5px solid blue;
+}
+.home-hero {
+	background-image:url(images/fav1.jpg);
+	height:600px;
+	background-position:center;
+	color:white;
+	background-repeat:no-repeat;
+}
+/* Imported Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@1,500&display=swap');
+/* CSS Adjustments for Tablets */
+@media only screen and (max-width: 1024px) {
+	h1{
+		font-size: 1.8em;
+}
+}
+/* CSS Adjustments for Smartphones */
+@media only screen and (max-width: 768px) {
+	h1{
+		font-size: 1.5em;
+	}
+}
